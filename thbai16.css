@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.tag{
+    height: 100px;
+}
+.a, .b, .c{
+    justify-content: space-evenly;
+    display: flex;
+}
+.home{
+    width: 70%;
+    border: 4px solid black;
+    height: 350px;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    right: 30px;
+} 
+.course, .weddesign, .speaking, .language,.teacher,.speaking,.material,.css3,.html,.learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ab5b9;
+    margin: 7px;
+    width: 70%;
+    height: 50px;
+}

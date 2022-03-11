@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dada{
+    margin: 20px;
+    width: 27%;
+    height: 200px;
+    background-image: url(https://vnn-imgs-f.vgcloud.vn/2021/09/07/09/chu-meo-noi-tieng-mang-xa-hoi-voi-phong-cach-thoi-trang-sanh-dieu-1.jpeg);
+    background-size: 417px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-color: rgb(255, 255, 255);
+    border-style:solid;
+    padding-top: 413px;
+}
+.giam1{
+    font-weight: bolder;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+.giam2{
+    text-decoration-line:line-through;
+    font-size: 30px;
+}
+.giam3{
+    color: red;
+    font-size: 30px;
+}
+.chu{
+    padding-top: 73px;
+    display:inline-block;
+}
+.home{
+    border: 300px;
+    padding: 1px;
+    background-color: rgb(180, 150, 150);
+}

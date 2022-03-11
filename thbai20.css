@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 999px;
+    background-color: black;
+}
+.tour{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.remember{
+    color:rgb(136, 135, 135);
+    text-align: center;
+    padding-top: 12px;
+}
+.menu{
+    margin: auto;
+    width: 59%;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.iteam, .pp, .november{
+    color: rgb(124, 124, 124);
+}
+.pp, .november{
+    border: 1px solid rgb(165, 162, 162);
+    padding: 10px;
+
+}
+.sold{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    width: 50px;
+    border-left: 20px solid rgb(255, 255, 255);
+
+}
+.so3{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 100%;
+    margin-left: 745px;
+}
+.menu2{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+.son1,.son2,.son3{
+    background-color: white;
+    height: 420px;
+    margin: 10px;
+    padding-top: 220px;
+    font-size: 18px;
+}
+.son1{
+    background-image: url(https://www.homewallmurals.co.uk/ekmps/shops/allwallpapers/images/new-york-wall-mural-black-and-white-wallpaper-1328-1-p.jpg);
+    background-size: 303px;
+    background-repeat: no-repeat;
+}
+.son2{
+    background-image: url(https://www.jqueryscript.net/images/Fully-Responsive-Customizable-Image-Carousel-Plugin-jQuery.jpg);
+    background-size: 286px;
+    background-repeat: no-repeat;
+}
+.son3{
+    background-image: url(https://trabajarporelmundo.org/wp-content/uploads/2015/04/trabajar-como-profesor-de-espa%C3%B1ol-en-estados-Unidos.jpg);
+    background-size: 325px;
+    background-repeat: no-repeat;
+}
+.indam{
+    font-weight: bolder;
+}
+.n1{
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.n2{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.buy{
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.indam,.n1,.n2,.buy{
+    margin-left: 10px;
+}

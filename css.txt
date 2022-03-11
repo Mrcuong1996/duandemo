@@ -1,0 +1,96 @@
+color: đổi màu chữ
+font-size: đổi cỡ chữ
+opacity : mức độ trong suốt
+line-height : độ cao văn bản
+background : nền
+background-color: màu nền
+background-image : ảnh nền
+border : đường viền
+border-color: màu viền
+border-width: độ rộng viền
+border-vị trí : vị trí viền
+border-radius: viền cong
+display : loại hiển thị
+    -display inline vs inline-block vs block
+text-align : sắp xếp nội dung
+list-style: kiểu danh sách
+text-decoration : none , bỏ gạch dưới thẻ a
+margin : căn lề 
+margin : top right bottom left;
+padding : thêm khoảng không
+đơn vị đo : px , %, , vh, vw
+:hover 
+:focus
+Cách lấy màu
+Các cách căn giữa margin : 0 auto
+căn text dọc bằng line-height
+box-sizing border-box
+ ul.class1>li.classiteam*6
+ content:              nội dung của thẻ HTML
+
+border:               đường bao ngoài, đường giới hạn của thẻ HTML
+
+padding:              vùng đệm giữa border và content
+
+margin:               phần dùng chung, để giãn cách các khối
+
+
+border: 1px solid black       thêm border cho cả 4 cạnh của khối
+
+border-top/left/right/bottom  thêm border cho từng cạnh lẻ
+
+border-radius                 bo tron goc vuong
+===============================
+
+padding: 10px                 them padding cho 4 canh
+
+padding-top/left/right/bottom
+
+padding: 20px 30px            top - bottom  20px
+                              left- right   30px
+
+
+padding: 10px 20px 30px 40px  top     10px                            
+                              right   20px
+                              bottom  30px
+                              left    40px
+
+================================
+
+
+margin: 10px                 them margin cho 4 canh
+
+margin-top/left/right/bottom
+
+margin: 20px 30px            top - bottom  20px
+                              left- right   30px
+
+
+margin: 10px 20px 30px 40px  top     10px                            
+                              right   20px
+                              bottom  30px
+                              left    40px
+
+display                 căn chỉnh, sắp xếp hiển thị các khối giao diện
+
+inline                  hiển thị dạng text
+                        không dùng được width height
+
+block                   hiển thị dạng khối, chiếm nguyên ròng
+
+inline-block            hiển thị dạng text
+                        nhưng vẫn dùng được width height
+
+none                    không hiển thị
+                        biến mất hoàn toàn khỏi giao diện
+
+
+flex                    trao quyền cho thẻ cha thay đổi hiển thị của các thẻ con bên trong    
+      
+      flex-direction    thay đổi chiều xếp hàng của thẻ con                 
+
+      justify-content   căn chỉnh hiển thị cho thẻ con
+                        căn chỉnh theo chiều của flex-direction
+
+      align-items       căn chỉnh hiển thị cho thẻ con
+                        căn chỉnh theo chiều còn lại của flex-direction                             

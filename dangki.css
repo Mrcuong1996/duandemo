@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.dangki{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 350px;
+}
+.username{
+    width: 100%;
+
+}
+.body{
+    background-color: rgb(14, 206, 46);
+}
+.submit{
+    width: 100%;
+    background-color: rgb(14, 206, 46);
+    border-style: none;
+    color: white;
+    padding: 10px
+}
+.size{
+    font-size: 27px;
+}
+.chat{
+    width: 100%;
+}
+input{
+    padding: 10px;
+}

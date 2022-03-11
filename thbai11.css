@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.m1{
+    width: 100%;
+    background-color: rgb(231, 226, 219);
+    position: relative;
+}
+.m2{
+    background-color: rgb(240, 232, 221);
+    font: 400 18px arial;
+    font-weight: bolder;
+    
+}
+.thea{
+    text-decoration: none;
+}
+.anh{
+    border: 500px;
+    padding: 2px;
+    background-color: rgb(30, 214, 214);
+}
+.m3{
+    text-align: right;
+    margin-top: 20px;
+}

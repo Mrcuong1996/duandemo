@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.thbai12{
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    color: white;
+    z-index: 10;
+
+}
+.childmore{
+    display: none;
+}
+.a{
+    line-height: 60px;
+}
+.a li{
+    display: inline-block;
+    padding: 0 20px ;
+    cursor: pointer;
+
+}
+.b li{
+    color: black;
+    width: 100%;
+    padding-right: 50px;
+}
+.b{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    display: none;
+    top: 60px;
+    cursor: pointer;
+
+}
+.bb{
+    position: relative;
+}
+.bb:hover .b{
+    display: inline-block;
+}
+li:hover {
+    background-color: #ccc;
+}
+.c img{
+    width: 100%;
+}
+.c{
+    position: relative;
+    width: 100%;
+}
+.nuoc{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 45%;
+    
+}
+.anuoc{
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+}

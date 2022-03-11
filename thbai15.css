@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    height: 100px;
+}
+.header{
+    height: 100px;
+}
+.content{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ads{
+    width: 15%;
+}
+.post{
+    width: 70%;
+    height: 300px;
+}
+.menu, .ads, .post, .link, .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    margin: 4px;
+}
+.link{
+    height: 70px;
+}

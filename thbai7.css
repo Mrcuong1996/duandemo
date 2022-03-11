@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vanban{
+    text-align: center;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.gachchan{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.red{
+    color: red;
+    font-weight: 500;
+}
+.th{
+    font-weight: 500;
+}
+.unde{
+    color: rgb(28, 198, 228);
+}
+.red2{
+    color: red;
+}
+.duccimus{
+    color: red;
+    font-size: 30px;
+    
+}
+
+.text1{
+    background-color: rgb(72, 187, 87);
+    width: 100%;
+}
+.text{
+    background-color: rgb(139, 243, 129);;
+    width: 100%;
+}
+.class1{
+    background-color: rgb(47, 204, 47);
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.classiteam{
+    border: 1px solid black;
+    position: relative;
+}
+
+.class2{
+    list-style: none;
+    width: 200px;
+    display: none;
+    position: absolute;
+    left:100%
+}
+.classiteam2{
+    background-color: rgb(21, 141, 21);
+    list-style: none;
+    border: 1px solid black;
+}
+.classiteam{
+    list-style: none;
+    border: 1px solid black;
+}
+.classiteam:hover .class2{
+    display: inline-block;
+    /* margin-left: 200px; */
+}

@@ -1,0 +1,14 @@
+.a{
+    position: relative;
+    width: 500px;
+    background-color: aqua;
+    padding: 1px;
+    height: 500px;
+}
+.b{
+    width: 100px;
+    background-color: rgb(233, 12, 148);
+    padding: 1px;
+    height: 100px;
+    bottom: -50px;
+}

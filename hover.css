@@ -1,0 +1,26 @@
+.class1{
+    background-color: rgb(47, 204, 47);
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.classiteam{
+    border: 1px solid black;
+}
+
+.class2{
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+.classiteam2{
+    list-style: none;
+    border: 1px solid black;
+}
+.classiteam{
+    list-style: none;
+    border: 1px solid black;
+}
+.classiteam:hover .class2{
+    display: inline-block;
+    margin-left: 200px;

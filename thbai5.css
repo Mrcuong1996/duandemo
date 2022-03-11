@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.content{
+    margin: 0 auto;
+    background-color: #2b2728;
+    width: 500px;
+    padding: 20px;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dangki{
+    width: 100%;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    border-radius: 5px;
+}
+.header{
+    color: white;
+    font-size: 27px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.body{
+    background-color: #1c1c28;
+
+}
+.signup{
+    color: white;
+    background-color: rgb(80, 80, 219);
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.signin{
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    border-style: none;
+    padding: 10px;
+    
+    
+}
+input{
+    padding: 8px;
+}
+.header{
+    background-color: rgb(110, 106, 106);
+    color: rgb(156, 150, 150);
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.size{
+    color: rgb(104, 99, 99);
+    text-align: center;
+    font-size: 40px;
+}
+.form{
+    text-align: center;
+    color: rgb(36, 36, 175);
+    font-size: 40px;
+}
+.account{
+    text-align: center;
+}
+.Xtra{
+    color: rgb(104, 99, 99);
+    text-align: center;
+    font-size: 40px;
+}
+.username{
+     color: rgb(126, 122, 122);
+}
+.kc{
+    text-align: center;
+    color: rgb(126, 122, 122);
+}

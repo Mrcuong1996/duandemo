@@ -1,0 +1,17 @@
+.thbai6{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline red;
+}
+.click{
+   text-decoration: none;
+   text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 500;
+}
+@font-face {
+    font-family: ;
+    src: url(./Lobster/Lobster-Regular.ttf);
+}
