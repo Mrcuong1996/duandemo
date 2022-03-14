@@ -2,12 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:"Open Sans", sans-serif;
+    
 }
 .header{
     display: flex;
     font-size: 20px;
     width: 100%;
     position: fixed;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    height: 65px;
+    border: 1px solid #ccc;
+    z-index: 9999999;
 }
 .logo-logo1{
     padding-bottom: 10px;
@@ -25,24 +35,13 @@
 .logo a,.freedowload{
     text-decoration: none;
 }
-.header{
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 1px;
-    height: 65px;
-    border: 1px solid #ccc;
-}
 .icon1-ul,.icon2-ul{
     display: flex;
     
 }
-body{
-    height: 2000px;
-}
 li{
     list-style:none;
-    margin: 0px 5px;
+    padding: 8px 0px 8px 4px;
 }
 .fa-tv,.fa-tablet{
     padding: 8px;
@@ -64,8 +63,8 @@ li{
 }
 .logo-ul-border{
     border: 1px solid #ccc;
-    padding: 5px 10px;
-    color: #ccc;
+    padding: 8px 10px;
+    color: #828282;
     border-radius: 5px;
 }
 .boder-vien-xanh:hover{
@@ -79,6 +78,12 @@ li{
     color: white;
     background-color: #00a6eb;
     border-radius: 5px;
+    font-size: 15px;
+    padding: 12px 20px 10px 20px;
+    text-align: center;
+}
+.dowload-fontsize{
+    text-align: center;
 }
 .freedowload:hover{
     color: white;
@@ -89,7 +94,23 @@ li{
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
-    z-index: 996;
+}
+.contact-example{
+    font-weight: 100 !important;
+    font-size: 15px;
+    padding-right: 10px;
+    color: black;
+    padding-left: 0 !important;
+}
+.colo-icon{
+    color: #437099;
+}
+.fa-square-envelope, .fa-mobile-screen-button{
+    color:#00b4ff;
+}
+hr{
+    margin-top: 70px;
+    opacity: 0.04;
 }
 .contact-container{
     margin-left: 99px;
@@ -99,7 +120,7 @@ li{
     margin-top: 90px;
 }
 .contact-container-phone{
-    margin-right: 700px;
+    margin-right: 880px;
 }
 .d-flex{
     display: flex !important;
@@ -107,30 +128,234 @@ li{
 .contact a{
     padding-left: 15px;
 }
-
 .menu2{
-    position: fixed;
+    top: 64px;
+    position: sticky;
+    padding-top: 10px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    z-index: 999999;
 }
+/* .sticky {
+    position: fixed;
+    top: 65px;
+    width: 100%;
+  } */
 a{
     text-decoration: none;
+    align-items: center !important;
 }
 .medilab{
-    margin-right: 500px;
-    margin-left: 99px;
+    margin-right: 350px;
+    margin-left: 50px;
     font-size: 30px;
 }
 .medilab a{
-    color: #1e5f8d;
-    font-weight: 700;
+    color: #2c4964;
+    font-weight:800;
 }
 .menu2-medilab{
+    
     display: flex;
-    align-items: center !important;
-    margin-right: auto !important;
-    margin-top: 50px;
+    margin-left: 57px;
     
 }
 .menu2-ul{
     display: flex;
-    margin-top: 30px
+}
+.menu2-li{
+    color: #2c4964;
+    padding: 10px;
+}
+.menu2-li:hover{
+    border-bottom: 2px solid #0d6efd;
+    color: #1977cc;
+    padding-bottom: 5px;
+}
+.menu2--li-home{
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 5px;
+    color:  #1977cc;
+}
+.dropdown2{
+    color: #2c4964;
+}
+.appointment{
+    background: #166ab5;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    margin-left:30px;
+}
+.appointment:hover{
+    background:#1990c4;
+}
+.make-appointment{
+    align-items: center !important;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+.ul-drop-down{
+    background-color: white;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-menu{
+    background: #fff;
+    border: none;
+}
+.drop-down:hover{
+    color: black !important;
+}
+.dropdown-item:hover{
+    background-color: white;
+    color:#166ab5;
+}
+.dropdown-menu li{
+    position: relative;
+}
+.dropdown-menu2{
+    position: absolute;
+    background: white;
+    width: 200px;
+    display: none;
+    left: 195px;
+    border: 1px solid white;
+    top:0;
+}
+.deep-drop-down:hover>.dropdown-menu2{
+    display: block;
+    background-color: white;
+}
+.menu3-backgrough{
+    background-size:cover;
+    width: 100%;
+    position: absolute;
+    margin-bottom: -200px;
+}
+.menu3{
+    height: 90vh;
+}
+.menu3-title{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 210px;
+    padding-left: 105px;
+    
+}
+.menu3-title h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase !important;
+    color: #2c4964;
+}
+.menu3-title h2{
+    color: #2c4964;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+.get-started{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1977cc;
+    
+}
+.get-started:hover{
+    background-color: #3291e6;
+    color: white;
+
+}
+
+.menu3-content{
+    display: flex;
+    position: absolute;
+    top: 650px;
+}
+
+.menu3-content-1{
+    width: 40%;
+    height: 400px;
+    margin-left: 105px !important;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center !important;
+    background-color: #1977cc;;
+    color: white;
+    margin-top: 30px;
+}
+.menu3-content-1 h3{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: start;
+}
+.menu3-content-1 a{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s; 
+}
+.menu3-content-1 a:hover{
+    background-color: white;
+    color: #00b4ff;
+}
+.menu3-content-1 p{
+    margin-bottom: 30px;
+    text-align: start;
+}
+.menu3-box-icon{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+.menu3-box {
+    background-color: white;
+    margin-left: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 40px 30px;
+    width: 100%;
+}
+.box-right{
+    margin-right: 100px;
+}
+.box-left{
+    margin-left: 25px;
+}
+.icon-size{
+    font-size: 40px;
+    color: #1977cc;
+    margin-bottom: 30px;
+}
+.menu3-box-icon h4{
+    margin-bottom: 30px;
+}
+.menu3-box-icon p{
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #848484;
+}
+.menu3-content{
+    padding-bottom: 60px;
 }
